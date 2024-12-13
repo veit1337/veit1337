@@ -1,0 +1,37 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key":     "ctrl+m",
+        "command": "workbench.action.terminal.focus",
+    },
+    {
+        "key":     "ctrl+m",
+        "command": "workbench.action.focusFirstEditorGroup",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+f4",
+        "command": "github.copilot.toggleCopilot"
+    },
+    {
+        "key": "ctrl+shift+i",
+        "command": "github.copilot.openChat"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "python.execInTerminal"
+    },
+    {
+        "key": "ctrl+k ctrl+k",
+        "command": "workbench.files.action.collapseExplorerFolders",
+    },
+    {
+        "key": "ctrl+f",
+        "command": "actions.find"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "-actions.find",
+        "when": "editorFocus || editorIsOpen"
+    }
+]
