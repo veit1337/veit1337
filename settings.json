@@ -1,0 +1,39 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.preferredDarkColorTheme": "Monokai",
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+    "workbench.startupEditor": "none",
+
+    "files.autoSave": "afterDelay",
+
+    "editor.rulers": [79],
+    "notebook.lineNumbers": "on",
+
+    "vim.smartRelativeLine": true,
+    "vim.useSystemClipboard": true,
+
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false
+    },
+    "github.copilot.advanced": {
+        "authProvider": "github"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "github.copilot.preferredAccount": "gemv_vicsse",
+
+    "pylint.args": [
+        "--disable=C0114",
+        "--disable=C0325",
+        "--disable=C0116"
+    ],
+
+    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": false,
+    "latex-workshop.latex.clean.subfolder.enabled": true,
+    "latex-workshop.latex.outDir": "%DIR%/build",
+
+    "cmake.showOptionsMovedNotification": false,
+    "cSpell.language": "en,de-de"
+}
