@@ -1,10 +1,8 @@
 #<------------------MAX_LENGTH------------------>#
 # <TYPE>(<SCOPE>): <SUBJECT>
 
-
 #<---------------------------------MAX_LENGTH--------------------------------->#
 # <BODY>
-
 
 # <FOOTERS>
 Jira: HOCA-
@@ -32,3 +30,4 @@ Jira: HOCA-
 # - explains reason for change
 # - describes that change in detail
 # - presents the consequences of the change
+
