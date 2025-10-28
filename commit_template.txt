@@ -5,7 +5,6 @@
 # <BODY>
 
 # <FOOTERS>
-Jira: HOCA-
 
 #-------POSSIBLE TYPES-------#
 # build: Changes that affect the build system or external dependencies
