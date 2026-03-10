@@ -1,51 +1,42 @@
 {
-    "workbench.settings.editor": "json",
-    "workbench.colorTheme": "Monokai",
-    "workbench.preferredDarkColorTheme": "Monokai",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
-    "workbench.startupEditor": "none",
-    "workbench.editor.enablePreview": false,
-
-    "window.commandCenter": false,
-    
-    "explorer.compactFolders": false,
-    "explorer.decorations.badges": false,
-    "explorer.decorations.colors": false,
-    
-    "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 1000,
-
-    "editor.tabSize": 4,
-    "editor.rulers": [79],
-    "editor.stickyScroll.enabled": true,
-
-    "notebook.lineNumbers": "on",
-
-    "vim.smartRelativeLine": true,
-    "vim.useSystemClipboard": true,
-    "vim.incsearch": true,
-    "vim.hlsearch": true,
-
-    "python.analysis.typeCheckingMode": "basic",
-
-    "pylint.args": [
-        "--disable=C0114",
-        "--disable=C0325",
-        "--disable=C0116"
-    ],
-
-    "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
-    "latex-workshop.latex.clean.subfolder.enabled": true,
-    "latex-workshop.latex.outDir": "%DIR%/build",
-
-    "codesnap.backgroundColor": "#ffffff",
-    "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px",
-    "codesnap.transparentBackground": true,
-    
-    "github.copilot.enable": {
-        "*": false,
-    },
-    "github.copilot.chat.localeOverride": "en",
-    "github.copilot.chat.scopeSelection": true,
+  "codesnap.backgroundColor": "#ffffff",
+  "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px",
+  "codesnap.transparentBackground": true,
+  "editor.rulers": [
+    79
+  ],
+  "editor.stickyScroll.enabled": true,
+  "editor.tabSize": 4,
+  "explorer.compactFolders": false,
+  "explorer.decorations.badges": false,
+  "explorer.decorations.colors": false,
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "github.copilot.chat.localeOverride": "en",
+  "github.copilot.chat.scopeSelection": true,
+  "github.copilot.enable": {
+    "*": false
+  },
+  "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
+  "latex-workshop.latex.clean.subfolder.enabled": true,
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "notebook.lineNumbers": "on",
+  "pylint.args": [
+    "--disable=C0114",
+    "--disable=C0325",
+    "--disable=C0116"
+  ],
+  "python.analysis.typeCheckingMode": "basic",
+  "vim.hlsearch": true,
+  "vim.incsearch": true,
+  "vim.smartRelativeLine": true,
+  "vim.useSystemClipboard": true,
+  "window.commandCenter": false,
+  "workbench.colorTheme": "Monokai",
+  "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+  "workbench.editor.enablePreview": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.preferredDarkColorTheme": "Monokai",
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none"
 }

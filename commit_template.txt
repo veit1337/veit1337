@@ -29,4 +29,3 @@
 # - explains reason for change
 # - describes that change in detail
 # - presents the consequences of the change
-
