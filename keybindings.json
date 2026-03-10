@@ -1,36 +1,15 @@
 [
   {
-    "command": "workbench.action.terminal.focus",
-    "key": "ctrl+m"
-  },
-  {
-    "command": "workbench.action.focusFirstEditorGroup",
-    "key": "ctrl+m",
-    "when": "terminalFocus"
-  },
-  {
-    "command": "github.copilot.toggleCopilot",
-    "key": "ctrl+shift+f4"
-  },
-  {
-    "command": "github.copilot.openChat",
-    "key": "ctrl+shift+i"
-  },
-  {
-    "command": "python.execInTerminal",
-    "key": "ctrl+alt+r"
-  },
-  {
     "command": "workbench.files.action.collapseExplorerFolders",
     "key": "ctrl+k ctrl+k"
   },
   {
-    "command": "actions.find",
-    "key": "ctrl+f"
+    "command": "workbench.panel.chat",
+    "key": "ctrl+i ctrl+i",
+    "when": "workbench.panel.chat.view.copilot.active"
   },
   {
-    "command": "-actions.find",
-    "key": "ctrl+f",
-    "when": "editorFocus || editorIsOpen"
+    "command": "github.copilot.completions.toggle",
+    "key": "alt+c alt+c"
   }
 ]
