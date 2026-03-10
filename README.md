@@ -6,6 +6,7 @@ Hi everyone :)
 
 This repository contains some settings and configs that I find useful for
 developing software.
+I keep this also as a reference for myself.
 
 Furthermore, you can find some of my social media links.
 
