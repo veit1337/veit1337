@@ -29,6 +29,7 @@
     "ms-vscode.remote-repositories",
     "redhat.vscode-yaml",
     "twxs.cmake",
-    "vintharas.learn-vim"
+    "vintharas.learn-vim",
+    "platformio.platformio-ide"
   ]
 }

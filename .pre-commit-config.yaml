@@ -6,6 +6,7 @@ repos:
       - id: detect-private-key
       - id: check-json
       - id: pretty-format-json
+        args: [--autofix]
       - id: check-yaml
       - id: double-quote-string-fixer
       - id: fix-byte-order-marker

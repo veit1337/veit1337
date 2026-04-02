@@ -21,6 +21,7 @@
   "latex-workshop.latex.clean.subfolder.enabled": true,
   "latex-workshop.latex.outDir": "%DIR%/build",
   "notebook.lineNumbers": "on",
+  "platformio-ide.useDevelopmentPIOCore": true,
   "pylint.args": [
     "--disable=C0114",
     "--disable=C0325",
