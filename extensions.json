@@ -30,6 +30,7 @@
     "redhat.vscode-yaml",
     "twxs.cmake",
     "vintharas.learn-vim",
-    "platformio.platformio-ide"
+    "platformio.platformio-ide",
+    "rust-lang.rust-analyzer"
   ]
 }

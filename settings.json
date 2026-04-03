@@ -28,6 +28,10 @@
     "--disable=C0116"
   ],
   "python.analysis.typeCheckingMode": "basic",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "rust-analyzer.lens.enable": false,
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.smartRelativeLine": true,
