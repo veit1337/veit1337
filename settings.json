@@ -2,6 +2,7 @@
   "codesnap.backgroundColor": "#ffffff",
   "codesnap.boxShadow": "rgba(0, 0, 0, 0) 0px 0px 0px",
   "codesnap.transparentBackground": true,
+  "editor.inlayHints.enabled": "off",
   "editor.rulers": [
     79
   ],
@@ -28,9 +29,6 @@
     "--disable=C0116"
   ],
   "python.analysis.typeCheckingMode": "basic",
-  "rust-analyzer.inlayHints.chainingHints.enable": false,
-  "rust-analyzer.inlayHints.closureReturnTypeHints.enable": "never",
-  "rust-analyzer.inlayHints.parameterHints.enable": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "rust-analyzer.lens.enable": false,
   "vim.hlsearch": true,
