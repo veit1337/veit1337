@@ -8,7 +8,6 @@ repos:
       - id: pretty-format-json
         args: [--autofix]
       - id: check-yaml
-      - id: double-quote-string-fixer
       - id: fix-byte-order-marker
       - id: requirements-txt-fixer
       - id: end-of-file-fixer
