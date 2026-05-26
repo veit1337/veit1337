@@ -13,11 +13,6 @@
   "explorer.decorations.colors": false,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
-  "github.copilot.chat.localeOverride": "en",
-  "github.copilot.chat.scopeSelection": true,
-  "github.copilot.enable": {
-    "*": false
-  },
   "latex-workshop.latex.autoBuild.cleanAndRetry.enabled": true,
   "latex-workshop.latex.clean.subfolder.enabled": true,
   "latex-workshop.latex.outDir": "%DIR%/build",
@@ -28,7 +23,19 @@
     "--disable=C0325",
     "--disable=C0116"
   ],
+  "python.analysis.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "python.analysis.indexing": true,
   "python.analysis.typeCheckingMode": "basic",
+  "python.autoComplete.extraPaths": [
+    "/opt/ros/jazzy/lib/python3.12/site-packages"
+  ],
+  "remote.SSH.path": "/usr/bin/ssh",
+  "remote.SSH.remotePlatform": {
+    "vm": "linux"
+  },
+  "remote.SSH.useLocalServer": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "rust-analyzer.lens.enable": false,
   "vim.hlsearch": true,
@@ -39,7 +46,6 @@
   "workbench.colorTheme": "Monokai",
   "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
   "workbench.editor.enablePreview": false,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "Monokai",
   "workbench.settings.editor": "json",
   "workbench.startupEditor": "none"
