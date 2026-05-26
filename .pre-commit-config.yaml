@@ -9,7 +9,6 @@ repos:
         args: [--autofix]
       - id: check-yaml
       - id: fix-byte-order-marker
-      - id: requirements-txt-fixer
       - id: end-of-file-fixer
       - id: trailing-whitespace
       - id: check-merge-conflict
