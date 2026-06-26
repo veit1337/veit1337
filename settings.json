@@ -38,6 +38,9 @@
   "remote.SSH.useLocalServer": false,
   "rust-analyzer.inlayHints.typeHints.enable": false,
   "rust-analyzer.lens.enable": false,
+  "vim.handleKeys": {
+    "<C-p>": false
+  },
   "vim.hlsearch": true,
   "vim.incsearch": true,
   "vim.smartRelativeLine": true,
